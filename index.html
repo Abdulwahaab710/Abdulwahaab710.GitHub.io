@@ -1,240 +1,112 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Abdulwahaab Ahmed</title>
-        <link rel="icon" href="img/logo.png">
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="css/style.css"/>
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <!-- Compiled and minified CSS -->
-    </head>
-    <body >
 
-        <div class="navbar-fixed">
-            <nav class=" blue-grey darken-4 col s12 m2 z-depth-2 ">
-            <div class="container">
-                <div class="nav-wrapper" >
-                      <a href="#!" class="brand-logo">
-                        <img class="logo" src="img/logo.png" alt="Abdulwahaab Ahmed">
-                      </a>
-                    <ul class="right hide-on-med-and-down table-of-contents">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#aboutMe">About me</a></li>
-                            <li><a href="#porfolio">Porfolio</a></li>
-                            <li><a href="#contactMe">Contact</a></li>
-                    </ul>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse">
-                      <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="side-nav" id="mobile-demo">
-                      <li><a href="#home">Home</a></li>
-                      <li><a href="#aboutMe">About me</a></li>
-                      <li><a href="#porfolio">Porfolio</a></li>
-                      <li><a href="#contactMe">Contact</a></li>
-                    </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abdulwahaab Ahmed</title>
+    <link rel="icon" href="img/logo.png">
+    <!--Let browser know website is optimized for mobile-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link type="text/css" rel="stylesheet" href="includes/css/style.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="parallax-container" id="home">
+        <div id="navbg" class="parallax">
+            <div class="outer">
+                <div class="middle">
+                    <div class="inner"><h1>Hello World!</h1></div>
                 </div>
-                </div>
-            </nav>
+            </div>
         </div>
-        <main>
-            <div id="home">
-              <div class="parallax-container" style="height: 690px;">
-                <div class="parallax"><img src="img/home-Bg.jpg"></div>
-              </div>
-            <div id="home" class="home blue-grey lighten-2 section scrollspy row center-align" style="margin-top: -20px;">
-
-              <div class="container">
-                <div class="section">
-                  <ul class="links">
-                    <li class="link link-padding"><a href="https://github.com/abdulwahaab710" target="_blank"><img class="github-black" onMouseOut="this.src='img/Black/Github-black.svg'" onMouseOver="this.src='img/Color/Github.svg'" src='img/Black/Github-black.svg' alt="Github"></a></li>
-                    <li class="link link-padding"><a href="https://facebook.com/a.wahaab.ahmed" id="facebook-black" target="_blank"><img class="github-black" onMouseOut="this.src='img/Black/Facebook-black.svg'" onMouseOver="this.src='img/Color/Facebook.svg'" src='img/Black/Facebook-black.svg' alt="Facebook"></a></li>
-                    <li class="link link-padding"><a href="https://twitter.com/@abdulwahaab710" id="Twitter-black" target="_blank"><img class="Twitter-black" onMouseOut="this.src='img/Black/Twitter-black.svg'" onMouseOver="this.src='img/Color/Twitter.svg'" src='img/Black/Twitter-black.svg' alt="Twitter"></a></li>
-                    <li class="link link-padding"><a href="https://plus.google.com/104575600507691678592" id="GooglePlus-black" target="_blank"><img class="GooglePlus-black" onMouseOut="this.src='img/Black/GooglePlus-black.svg'" onMouseOver="this.src='img/Color/GooglePlus.svg'" src='img/Black/GooglePlus-black.svg' alt="Google+"></li>
-                    <li class="link link-padding"><a href="https://www.instagram.com/abdulwahaab710/" id="Instagram-black" target="_blank"><img class="Instagram-black" onMouseOut="this.src='img/Black/Instagram-black.svg'" onMouseOver="this.src='img/Color/Instagram.svg'" src='img/Black/Instagram-black.svg' alt="Instagram"></li>
-                    <li class="link link-padding"><a href="https://linkedin.com/in/abdulwahaab710" id="LinkedIn-black" target="_blank"><img class="LinkedIn-black" onMouseOut="this.src='img/Black/LinkedIn-black.svg'" onMouseOver="this.src='img/Color/LinkedIn.svg'" src='img/Black/LinkedIn-black.svg' alt="LinkedIn"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            </div>
-            <div id="aboutMe" class="blue-grey lighten-1 section scrollspy row center-align">
-              <div class="container">
-                  <div class="section">
-                    <div class="col s6">
-                      <img id="profile-pic" src="img/profile.jpg"><br>
-                        <p class="center-align hide-on-med-and-down show-on-med-and-up" style="color: white;">Abdulwahaab Ahmed</p>
+    </div>
+    <div id="navbar">
+        <nav>
+            <div class="navbar navbar-inverse">
+                <div class="nav-wrapper" >
+                    <a href="#!" class="logo-link display-desktop">
+                        <img class="logo" src="img/logo.png" alt="Abdulwahaab Ahmed">
+                    </a>
+                    <ul class="desktop table-of-contents">
+                        <li><a class="nav-link-hash active" href="#home" id="homeLink">Home</a></li>
+                        <li><a href="#aboutMe" class="nav-link-hash">About me</a></li>
+                        <li><a href="https://github.com/abdulwahaab710" class="nav-link" target="_blank">Projects</a></li>
+                        <li><a href="#contactMe" class="nav-link-hash">Contact</a></li>
+                    </ul>
+                    <div class="mobile-nav display-mobile">
+                        <a href="#!" class="logo-link">
+                            <img class="logo" src="img/logo.png" alt="Abdulwahaab Ahmed">
+                        </a>
+                        <a href="#!" data-activates="mobile-demo" class="button-collapse">
+                            <i class="material-icons">menu</i>
+                        </a>
                     </div>
-                    <div class="col s6">
-                        <p id="pRight" class="hide-on-med-and-down right-align ">I am a full-time student at the University of Ottawa studying computer science and a part-time web developer at SASS-IT. I am a very passionate programmer. I have a huge interest in cyber security and digital forensics. I am also a co-founder of <b><a style="color: white;" href="https://www.f6s.com/aggregateapis" target="_blank">Aggregate APIs</a></b> and <b><a style="color: white;" href="https://www.f6s.com/bondconnectingplatform/" target="_blank">Bond Connecting Platform</a></b>.</p>
-                    </div>
-                    <div class="col s12">                          
-                      <p id="pRight" class="show-on-med-and-down hide-on-med-and-up  right-align">I am a full-time student at the University of Ottawa studying computer science and a part-time web developer at SASS-IT. I am a very passionate programmer. I have a huge interest in cyber security and digital forensics. I am also a co-founder of <b><a style="color: white;" href="https://www.f6s.com/aggregateapis" target="_blank">Aggregate APIs</a></b> and <b><a style="color: white;" href="https://www.f6s.com/bondconnectingplatform/" target="_blank">Bond Connecting Platform</a></b></p>
-                      </div>
-                    <div class="Skills col s12 left-align" style="float: left;">
-                        <ul class="collection with-header z-depth-2">
-                          <li class="collection-header blue-grey lighten-2"><h4>Skills:</h4></li>
-                          <ul>
-                            <li class="collection-item blue-grey lighten-3">
-                                <h4>Programming Languages:</h4>
-                              <p>Python, Ruby, Java, Visual Basic, C++</p>
-                            </li>
-                            <li class="collection-item blue-grey lighten-3">
-                              <h4><i class="fa fa-cloud"></i> Web developement</h4>
-                              <ul>
-                                <li>
-                                  <h5><i class="fa fa-code"></i> Front-End</h5>
-                                  <p>HTML, Twig, CSS, JavaScript, jQuery, Bootstrap, Materialize CSS, Angular Material</p>
-                                </li>
-                                <li>
-                                  <h5><i class="fa fa-cogs"></i> Back-End</h5>
-                                  <p>PHP, Flask, Ruby on Rails</p>
-                                </li>
-                              </ul> 
-                            </li>
-                            <li class="collection-item blue-grey lighten-3">
-                              <h4><i class="fa fa-database"></i> Databases</h4>
-                              <p>SQL, Microsoft Access</p>
-                            </li>
-                            <li class="collection-item blue-grey lighten-3">
-                              <h4>Others</h4>
-                              <p>Adobe Photoshop, Adobe AfterEffects, Adobe Premiere, Git</p>
-                            </li>
-                          </ul>
-                          <ul>
-                            <li class="collection-header blue-grey lighten-2"><h4><i class="fa fa-briefcase"></i> Work Experience</h4></li>
-                            <li class="collection-item blue-grey lighten-3">
-                              <div class="col s6" style="margin-left: -12px;"><h5>OCDSB FOY</h5></div>
-                              <div class="col s6">
-                              <h5 class="right-align" >July 2015 - August 2015</h5></div>
-                              <p><b>IT Consultant</b></p>
-                              <p>Created a database with Google technologies.<br>
-                                 Managing registration and attendance.<br>
-                                 Administer general technical support.
-                              </p>
-                            </li>
-                          </ul>
-                        </ul>
-
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div id="porfolio" class="blue-grey lighten-2 section scrollspy row" style="text-align: center;">
-              <div class="container">
-                <div class="section">
-                  <ul class="collection with-header z-depth-2">
-                            <li class="collection-header blue-grey lighten-2"><h4>Projects</h4></li>
-                             <li class="collection-item blue-grey lighten-3">
-                              <h4>Personal Website</h4>
-                              <p>I designed my website using HTML, CSS, jQuery, materiazl CSS.</p>
-                            </li>
-                            <li class="collection-item blue-grey lighten-3">
-                              <h4>BusNow</h4>
-                              <img src="img/BusNowAppUIView.png" alt="BusNow View">
-                              <p>BusNow is an app for pebble smartwatches that allows you to check the bus schedule, without pulling out your smartphone. BusNow use the phone loaction to determine the bus stop you are at.</p>
-                              <a href="https://github.com/Abdulwahaab710/PebbleHack">Check BusNow on Github</a>
-                            </li>
-
-                          </ul>
-                  <!--<p>Please Check my projects on <b><a href="http://www.github.com/Abdulwahaab710" target="_blank">GitHub.</a></b></p>-->
-                </div>
-              </div>
-            </div>
-            <div id="porfolio" class="blue-grey lighten-1 section scrollspy row">
-              <div class="container">
-                <div class="section">
-                  <div class="left-align col s6" style="padding-top: 60px;"><h3><a href="#contactMe" style="color: black;">Hire Me</a> to do your amazing projects.</h3></div><div class="right-align"><img style="height: 300px;" src="img/hireMe.png"></div>
-                </div>
-              </div>
-            </div>
-            <div id="contactMe" class="blue-grey lighten-2 section scrollspy row">
-              <div class="container">
-                <div class="section">
-                <form action="https://formspree.io/contact@abdulwahaab.ca" method="POST">
-                    <div class="input-field col s6">
-                      <i class="material-icons prefix">perm_identity</i>
-                      <input type="text" id="name" name="name" required>
-                      <label style="color: black;" for="name">Name</label>
-                    </div>
-                    <div class="input-field col s6">
-                      <i class="material-icons prefix">email</i>
-                      <input id="email" type="email" class="validate" name="email" required>
-                      <label for="email" style="color: black;">Email</label>
-                    </div>
-                    <div class="row">
-                      <div class="input-field col s12">
-                        <i class="material-icons prefix">mode_edit</i>
-                        <textarea id="icon_prefix2" class="materialize-textarea" name="message"></textarea>
-                        <label for="icon_prefix2" style="color: black;">Message</label>
-                      </div>
-                    </div>
-                    <div class="center-align">
-                      <button class="btn waves-effect waves-light blue-grey darken-3" type="submit" name="action">Submit<i class="material-icons right">send</i>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-
+                    <div class="overlay"></div>
+                    <ul class="side-nav gray" id="mobile-demo">
+                        <li><a class="mobile-nav-links" href="#home">Home</a></li>
+                        <li><a class="mobile-nav-links" href="#aboutMe">About me</a></li>
+                        <li><a class="mobile-nav-links" href="https://github.com/abdulwahaab710" target="_blank">Projects</a></li>
+                        <li><a class="mobile-nav-links" href="#contactMe">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-        </main>
+        </nav>
+    </div>
+    <main>
 
+        <section class="div-container dark-gray" id="aboutMe">
+            <div class="section">
+                <div class="aboutMe empty-div">
+                    <div class="left"><img src="https://github.com/abdulwahaab710.png" alt="profile picture"></div>
+                    <div class="right">
+                        <p id="pRight" class="hide-on-med-and-down right-align ">I am a full-time student at the University of Ottawa studying computer science. I am currently an intern at <a href='https://shopify.ca'><span style="background: #30373b; color: #7ab55c;border-radius: 5px;">&nbsp;Shopify&nbsp;</span></a>. I am a passionate programmer. I am always interested in solving security problems. On a side note I love laptop stickers 😜 . To see all my projects, please checkout my <a href='https://github.com/abdulwahaab710'>GitHub</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-          <footer class="indigo z-depth-1 blue-grey darken-3">
-            <div class="container">
-              <div class="section scrollspy">
-              <div class="row get-in-touch">
-                  <div class="col l12 s12 footer-links" style="text-align: center;">
-                      <h5 class="white-text">LET'S SOCIALIZE</h5>
-                      <div style="text-align: center;width: 40%;margin: 0 auto;" class="hide-on-med-and-down show-on-med-and-up">
-                      <p class="grey-text text-lighten-4" >
-                          I'm very social and I'd love to hear from you! Feel free to send me an email, find me on Google
-                          Plus, follow me on Twitter and join me on Facebook.
-                      </p>
-                      </div>
-                      <div style="text-align: center;margin: 0 auto;" class="show-on-med-and-down hide-on-med-and-up">
+        <section class="div-container light-gray" id="contactMe">
+            <div class="section">
+                <h1 style="color: white; padding-bottom: 1.5em;"> Soon a form will be up :) </h1>
+            </div>
+        </section>
+
+    </main>
+<footer class="blue">
+    <div class="container">
+        <div class="section scrollspy">
+            <div class="row get-in-touch">
+                <div class="col l12 s12 footer-links" style="text-align: center;">
+                    <h5 class="white-text">LET'S SOCIALIZE</h5>
+                    <div class="socialize-div">
                         <p class="grey-text text-lighten-4" >
-                          I'm very social and I'd love to hear from you! Feel free to send me an email, find me on Google
-                          Plus, follow me on Twitter and join me on Facebook.
+                            I'm very social and I'd love to hear from you! Feel free to send me an email, connect with me on LinkedIn
+                             follow me on Twitter or GitHub and join me on Facebook.
                         </p>
-                      </div>
-                      <div class="follow_us">
-                        <ul class="links">
-                          <li class="link"><a href="https://github.com/abdulwahaab710" target="_blank"><img class="github-black" onMouseOut="this.src='img/Black/Github-black.svg'" onMouseOver="this.src='img/Color/Github.svg'" src='img/Black/Github-black.svg' alt="Github"></a></li>
-                          <li class="link"><a href="https://facebook.com/a.wahaab.ahmed" id="facebook-black" target="_blank"><img class="github-black" onMouseOut="this.src='img/Black/Facebook-black.svg'" onMouseOver="this.src='img/Color/Facebook.svg'" src='img/Black/Facebook-black.svg' alt="Facebook"></a></li>
-                          <li class="link"><a href="https://twitter.com/@abdulwahaab710" id="Twitter-black" target="_blank"><img class="Twitter-black" onMouseOut="this.src='img/Black/Twitter-black.svg'" onMouseOver="this.src='img/Color/Twitter.svg'" src='img/Black/Twitter-black.svg' alt="Twitter"></a></li>
-                          <li class="link"><a href="https://plus.google.com/104575600507691678592" id="GooglePlus-black" target="_blank"><img class="GooglePlus-black" onMouseOut="this.src='img/Black/GooglePlus-black.svg'" onMouseOver="this.src='img/Color/GooglePlus.svg'" src='img/Black/GooglePlus-black.svg' alt="Google+"></li>
-                          <li class="link"><a href="https://www.instagram.com/abdulwahaab710/" id="Instagram-black" target="_blank"><img class="Instagram-black" onMouseOut="this.src='img/Black/Instagram-black.svg'" onMouseOver="this.src='img/Color/Instagram.svg'" src='img/Black/Instagram-black.svg' alt="Instagram"></li>
-                          <li class="link"><a href="https://linkedin.com/in/abdulwahaab710" id="LinkedIn-black" target="_blank"><img class="LinkedIn-black" onMouseOut="this.src='img/Black/LinkedIn-black.svg'" onMouseOver="this.src='img/Color/LinkedIn.svg'" src='img/Black/LinkedIn-black.svg' alt="LinkedIn"></a></li>
+                    </div>
+                    <div class="follow_us">
+                        <ul class="social-media-links">
+                            <li class="social-media-link"><a class="link-github" href="https://github.com/abdulwahaab710" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            <li class="social-media-link"><a class="link-facebook" href="https://facebook.com/3bdulwahaab710" id="facebook-black" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="social-media-link"><a class="link-twitter" href="https://twitter.com/@abdulwahaab710" id="twitter-black" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="social-media-link"><a class="link-instagram" href="https://www.instagram.com/abdulwahaab710/" id="Instagram-black" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li class="social-media-link"><a class="link-linkedin" href="https://linkedin.com/in/abdulwahaab710" id="LinkedIn-black" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                         </ul>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          </div>
-          </div>
-          <div class="footer-copyright indigo darken-2 blue-grey darken-4" style="padding: 5px;">
-              <div class="container" style="text-align: center;color: white;">
-                  <a href="http:s//www.Abdulwahaab.ca">Abdulwahaab.ca</a> &copy; 2016 - All Rights Reserved
-              </div>
-          </div>
-    </footer>
-    <script>
-        $(document).ready(function(){
-            $('.scrollspy').scrollSpy();
-            $('.parallax').parallax();
-            $('.tabs-wrapper .row').pushpin({ top: $('.tabs-wrapper').offset().top() });
-        });
-    </script>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script src="js/init.js"></script>
-
-    </body>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="footer-container">
+          <a class="footer-link" href="https://Abdulwahaab.ca">Abdulwahaab.ca</a> &copy; 2016 - All Rights Reserved
+      </div>
+    </div>
+</footer>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+        <script src="includes/js/script.js" type="text/javascript" charset="utf-8"></script>
+</body>
 </html>
+
